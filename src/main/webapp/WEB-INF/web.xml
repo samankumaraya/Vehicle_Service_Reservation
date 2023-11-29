@@ -19,4 +19,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>loginservlet</display-name>
+    <servlet-name>loginservlet</servlet-name>
+    <servlet-class>cscorner.loginservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginservlet</servlet-name>
+    <url-pattern>/loginservlet</url-pattern>
+  </servlet-mapping>
 </web-app>
